@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 
-rad=st.sidebar.radio("Menu",["Home","Education and Experience","Projects","Technologies and Tools"])
+rad=st.sidebar.radio("Menu",["Home","Education and Experience","Projects","Technologies and Tools","Certifications and Courses"])
 if rad == "Home":
     
     LOGO_IMAGE = "0C3B8359-4504-45D3-91DD-0BE600C0B26F_4_5005_c.jpeg"
@@ -70,7 +70,9 @@ if rad == "Home":
 
     
     x1,y1,z1=st.beta_columns(3)
-    y1.markdown(""" # Connect me""")
+    y1.markdown(""" ## Connect me """)
+    st.write("\n")
+    
     m,n,o=st.beta_columns(3)
     #m.header('[LINKEDIN](https://www.linkedin.com/in/chiranthana-r-r-232385200/)')
     #m.image('174857.png')
