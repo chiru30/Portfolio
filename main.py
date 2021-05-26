@@ -105,3 +105,24 @@ if rad == "Home":
 
     github_html = get_img_with_href('github.png', 'https://github.com/chiru30/')
     n.markdown(github_html, unsafe_allow_html=True)
+    
+    
+if rad == "Certifications and Courses" :
+    x2,y2=st.beta_columns(2)
+    
+    
+    #ds_html = get_img_with_href('F7729A18-BC52-4EAA-88C5-4DB18468CC23.jpeg', 'https://coursera.org/share/d94fecaa44cfd428602697b950af7b3a')
+    #x2.markdown(ds_html, unsafe_allow_html=True)
+    x2.header('[Data Science Professional Certificate](https://coursera.org/share/d94fecaa44cfd428602697b950af7b3a)')
+    x2.image('F7729A18-BC52-4EAA-88C5-4DB18468CC23.jpeg')
+
+    y2.header('[Introduction to Data Science ](https://coursera.org/share/5375de8fd80e80ce446302f5547e900d)')
+    y2.image('6FC2BC47-C5DC-4879-BE51-EFA0B33D0E4C_1_105_c.jpeg')
+    
+
+    x2,y2=st.beta_columns(2)
+    x2.header('[Introduction to Web Development](https://coursera.org/share/a0a8bf8c302439c3e1d655743617fd6d)')
+    x2.image('B8000BCC-D69C-40BF-AFF5-359631803A1A_1_105_c.jpeg')
+
+    y2.header('[Machine Learning with Python](https://coursera.org/share/0e02b5a2cd78f594a6d373cda4ccb5e9)')
+    y2.image('1270125A-0969-477E-8E65-2FDF58D1AA10_1_105_c.jpeg')
