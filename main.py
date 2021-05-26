@@ -126,3 +126,10 @@ if rad == "Certifications and Courses" :
 
     y2.header('[Machine Learning with Python](https://coursera.org/share/0e02b5a2cd78f594a6d373cda4ccb5e9)')
     y2.image('1270125A-0969-477E-8E65-2FDF58D1AA10_1_105_c.jpeg')
+    
+    x2,y2=st.beta_columns(2)
+    x2.header('[Data Analysis with python](https://coursera.org/share/956059eb0718c2863e3019a990985c0f)')
+    x2.image('67A08962-DE84-42E1-AD61-30E6FE1780E4_1_105_c.jpeg')
+
+    y2.header('[Data Visulaization with python](https://coursera.org/share/a1bc327ad2b0dfd124368914c2aa48c5)')
+    y2.image('89E39C1B-A3A7-4B88-9862-02A09FFBFA16_1_105_c.jpeg')
