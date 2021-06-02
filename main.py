@@ -1,3 +1,4 @@
+from altair.vegalite.v4.schema.core import Align
 import streamlit as st
 # To make things easier later, we're also importing numpy and pandas for
 # working with sample data.
@@ -7,13 +8,15 @@ import pandas as pd
 import os
 import base64
 
+
 import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 
+
 rad=st.sidebar.radio("Menu",["Home","Education and Experience","Projects","Technologies and Tools","Certifications and Courses"])
 if rad == "Home":
-    
+
     LOGO_IMAGE = "0C3B8359-4504-45D3-91DD-0BE600C0B26F_4_5005_c.jpeg"
 
 
@@ -46,7 +49,7 @@ if rad == "Home":
     """,
     unsafe_allow_html=True)
 
-    
+
     
 
     #a,b,c=st.beta_columns(3)
@@ -105,14 +108,10 @@ if rad == "Home":
 
     github_html = get_img_with_href('github.png', 'https://github.com/chiru30/')
     n.markdown(github_html, unsafe_allow_html=True)
-    
-    
+
 if rad == "Certifications and Courses" :
+    st.header("COURSES")
     x2,y2=st.beta_columns(2)
-    
-    
-    #ds_html = get_img_with_href('F7729A18-BC52-4EAA-88C5-4DB18468CC23.jpeg', 'https://coursera.org/share/d94fecaa44cfd428602697b950af7b3a')
-    #x2.markdown(ds_html, unsafe_allow_html=True)
     x2.header('[Data Science Professional Certificate](https://coursera.org/share/d94fecaa44cfd428602697b950af7b3a)')
     x2.image('F7729A18-BC52-4EAA-88C5-4DB18468CC23.jpeg')
 
@@ -147,3 +146,5 @@ if rad == "Certifications and Courses" :
 
     y2.header('[Getting Started with Python](https://coursera.org/share/787266dc51221f671e2261a91da592f4)')
     y2.image('E05F607B-B8D9-47CC-9596-20EDE15F81B2_1_105_c.jpeg')
+    
+    st.header("Other")
