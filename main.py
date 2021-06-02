@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 rad=st.sidebar.radio("Menu",["Home","Education and Experience","Projects","Technologies and Tools","Certifications and Courses"])
 if rad == "Home":
 
-    LOGO_IMAGE = "0C3B8359-4504-45D3-91DD-0BE600C0B26F_4_5005_c.jpeg"
+    LOGO_IMAGE = "Static//0C3B8359-4504-45D3-91DD-0BE600C0B26F_4_5005_c.jpeg"
 
 
     st.markdown(
