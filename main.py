@@ -175,3 +175,33 @@ if rad == "Certifications and Courses" :
         x2,y2,z2=st.beta_columns(3)
         x2.subheader('[Getting Started with Python](https://coursera.org/share/787266dc51221f671e2261a91da592f4)')
         x2.image('Static/E05F607B-B8D9-47CC-9596-20EDE15F81B2_1_105_c.jpeg')
+    
+    
+if rad== 'Technologies and Tools':
+    
+    def get_base64_of_bin_file(bin_file):
+        with open(bin_file, 'rb') as f:
+            data = f.read()
+        return base64.b64encode(data).decode()
+    def set_png_as_page_bg(png_file):
+        bin_str = get_base64_of_bin_file(png_file)
+        page_bg_img = '''
+        <style>
+        .stApp {
+        background-image: url("data:image/png;base64,%s");
+        background-size: cover;
+        }
+        </style>
+        ''' % bin_str
+        st.markdown(page_bg_img, unsafe_allow_html=True)
+        return
+    set_png_as_page_bg('Static/tools.gif')
+    
+    
+    st.header("SKILLS")
+    st.subheader('1. Data Science')
+    st.subheader('2. Data Analysis')
+    st.subheader('3. Machine Learning')
+    st.subheader("4. Deep Learning")
+    st.subheader("5. Web Development")
+    st.subheader("6. Business Analytics")
