@@ -341,3 +341,16 @@ if rad=="Projects":
         y2.write(" COVIAST is a platform to assist the public with their blood sample report in hand and predict the virus attack along with informative home remedial measures to combat the deadly virus. Given the large number of literature and the rapid spread of COVID-19, it is hard for us to keep up with new information on the virus , thus providing users a one stop solution through frequent updations.")
         y2.write('[Github](https://github.com/chiru30/COVIAST)')
     y2.image("Static/cov.png")
+
+    x3,y3=st.beta_columns(2)
+    if x3.button("SPOTIFY SKIP PREDICTION"):
+        x3.write("ML model which predicts if the user skips a song or not using Spotify dataset.")
+        x3.write('[Github](https://github.com/chiru30/spotify-skip-prediction)')
+    x3.image("Static/C78830A6-4594-48C6-B634-30E368E97D2D_1_105_c.jpeg")
+    if y3.button("MOVIE RATING PREDICTION"):
+        y3.write("ML model which predicts the rating of a movie based on features like genre , actors , overview etc.")
+        y3.write('[Github](https://github.com/chiru30/Movie-Rating-Prediction)')
+    y3.image("Static/5DF3A65E-C12D-40B3-A244-6D64837935B4.jpeg")
+
+    x4,y4,z4=st.beta_columns(3)
+    y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
