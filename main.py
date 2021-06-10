@@ -354,3 +354,23 @@ if rad=="Projects":
 
     x4,y4,z4=st.beta_columns(3)
     y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
+
+if rad=="Education and Experience":
+    html_temp="""
+    <p>
+    <div style="background:#ffffff;padding:10px">
+    <h2 style="color:black;text-align:center;">EXPERIENCE : </h2>
+    </div>
+    </p>
+    """
+    st.markdown(html_temp, unsafe_allow_html = True)
+
+    x1,y1=st.beta_columns(2)
+    if x1.button("Aakash Research Labs"):
+        x1.subheader("ROLE : Machine learning tech team")
+        x1.write("[Check out the team](https://aakashlabs.org/ac/146/)")
+    x1.image("Static/aa.jpg")
+    if y1.button("CodeChef SRM Student Chapter"):
+        y1.subheader("ROLE : Data Science tech team")
+        y1.write("[Check out the team](https://www.linkedin.com/company/ccscsrm/)")
+    y1.image("Static/code.png")
