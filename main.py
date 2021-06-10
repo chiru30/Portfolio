@@ -112,6 +112,26 @@ if rad == "Home":
     #n.image('25231.png')
     #o.header('[MEDIUM](https://chiranthana30rr.medium.com)')
     #o.image('unnamed.png')
+    html_temp="""
+
+<h3 align="center"> 
+<a href="https://github.com/chiru30" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</h3>
+<h3 align="center"> 
+<a href="https://www.linkedin.com/in/chiranthana-r-r-232385200" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</h3>
+<h3 align="center"> 
+<a href = "https://www.youtube.com/channel/UCDi8xgxgPsixJuheihvT04A">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</h3>
+<h3 align="center"> 
+<a href="https://medium.com/@chiranthana30rr" target="_blank">
+<img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
+</h3>
+"""
+    st.markdown(html_temp, unsafe_allow_html=True)
     
 
     @st.cache(allow_output_mutation=True)
@@ -129,14 +149,14 @@ if rad == "Home":
         </a>'''
         return html_code
     
-    medium_html = get_img_with_href('Static/medium.png', 'https://chiranthana30rr.medium.com')
-    o.markdown(medium_html, unsafe_allow_html=True)
+    #medium_html = get_img_with_href('Static/medium.png', 'https://chiranthana30rr.medium.com')
+    #o.markdown(medium_html, unsafe_allow_html=True)
 
-    linkedin_html = get_img_with_href('Static/linkedin_logo.png', 'https://www.linkedin.com/in/chiranthana-r-r-232385200/')
-    m.markdown(linkedin_html, unsafe_allow_html=True)
+    #linkedin_html = get_img_with_href('Static/linkedin_logo.png', 'https://www.linkedin.com/in/chiranthana-r-r-232385200/')
+    #m.markdown(linkedin_html, unsafe_allow_html=True)
 
-    github_html = get_img_with_href('Static/github.png', 'https://github.com/chiru30/')
-    n.markdown(github_html, unsafe_allow_html=True)
+    #github_html = get_img_with_href('Static/github.png', 'https://github.com/chiru30/')
+    #n.markdown(github_html, unsafe_allow_html=True)
 
 if rad == "Certifications and Courses" :
     def get_base64_of_bin_file(bin_file):
@@ -241,7 +261,7 @@ if rad== 'Technologies and Tools':
         ''' % bin_str
         st.markdown(page_bg_img, unsafe_allow_html=True)
         return
-    set_png_as_page_bg('Static/tool.gif')
+    set_png_as_page_bg('Static/analysis_364470.jpg')
     
     html_temp="""
     <p>
@@ -249,13 +269,12 @@ if rad== 'Technologies and Tools':
     <h2 style="color:black;text-align:center;"> SKILLS : </h2>
     </div>
     </p>
-    <h3 style="text-align:center;color:lightblue;">1. Data Science</h3>
-    <h3 style="text-align:center;color:lightblue;">2. Data Analysis</h3>
-    <h3 style="text-align:center;color:lightblue;">3. Machine Learning</h3>
-    <h3 style="text-align:center;color:lightblue;">4. Deep Learning</h3>
-    <h3 style="text-align:center;color:lightblue;">5. Web Development</h3>
-    <h3 style="text-align:center;color:lightblue;">6. Business Analytics</h3>
-    
+    <h1 style="text-align:center;color:black;">1. Data Science</h1>
+    <h1 style="text-align:center;color:black;">2. Data Analysis</h1>
+    <h1 style="text-align:center;color:black;">3. Machine Learning</h1>
+    <h1 style="text-align:center;color:black;">4. Deep Learning</h1>
+    <h1 style="text-align:center;color:black;">5. Web Development</h1>
+    <h1 style="text-align:center;color:black;">6. Business Analytics</h1>
     """
     
     st.markdown(html_temp, unsafe_allow_html = True)
@@ -266,7 +285,8 @@ if rad== 'Technologies and Tools':
     <h2 style="color:black;text-align:center;"> Languages and Tools: </h2>
     </div>
     </p>
-    
+    <p>
+    <div style="background:#f0d1d1;padding:10px">
     <p align="left"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
     <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
@@ -280,8 +300,44 @@ if rad== 'Technologies and Tools':
     <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40
     </a> <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
     </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> </p>
+    </div>
+    </p>
     """
     st.markdown(html_temp, unsafe_allow_html = True)
 
+if rad=="Projects":
+    html_temp="""
+    <p>
+    <div style="background:#ffffff;padding:10px">
+    <h2 style="color:black;text-align:center;">PROJECTS: </h2>
+    </div>
+    </p>
+    """
+    st.markdown(html_temp, unsafe_allow_html = True)
+
+    html_temp="""
+    <p>
+    <h2 style="color:white;text-align:left;">FEATURED: </h3>
+    <h4 style="color:white;text-align:left;">Top 10 mention in Hactrix Hackathon</h>
+    </p>
+    """
+    st.markdown(html_temp, unsafe_allow_html = True)
    
+
+    x1,y1=st.beta_columns(2)
+    if x1.button("AQUA.ANALYST"):
+        x1.write("AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.\n Will let your value compare with the nearby locations\n Detailed relationships and correlational patterns of the components\n A peek into articles related to the topic\n Various visualisations to compare water quality in different states\n Insights and visuals on effect of agriculture and crop production due to chemical components")
+        x1.write('[Github](https://github.com/chiru30/Aqua.analyst)')
+    x1.image("Static/analyst.jpg")
     
+    st.header("LOOK INTO MORE PROJECTS")
+
+    x2,y2=st.beta_columns(2)
+    if x2.button("RESOURCENITIC"):
+        x2.write("Resourcenitic aims at providing service oriented industrialists and cooperate sector a platform to understand the global natural resources share and future feasibility of projects or power plants they tend to establish .The reasons to invest in natural resources have always been compelling. Whether it's hydro, thermal, or nuclear, natural resources are at the core of production. The pool of investable natural resources is growing as the world population requires more and more of these resources. Also , natural resources boosts the Indian Economy")
+        x2.write('[Github](https://github.com/chiru30/Resourcenitic)')
+    x2.image("Static/res.png")
+    if y2.button("COVIAST"):
+        y2.write(" COVIAST is a platform to assist the public with their blood sample report in hand and predict the virus attack along with informative home remedial measures to combat the deadly virus. Given the large number of literature and the rapid spread of COVID-19, it is hard for us to keep up with new information on the virus , thus providing users a one stop solution through frequent updations.")
+        y2.write('[Github](https://github.com/chiru30/COVIAST)')
+    y2.image("Static/cov.png")
