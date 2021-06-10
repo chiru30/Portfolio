@@ -14,7 +14,7 @@ import streamlit.components.v1 as components
 st.set_page_config(layout="wide")
 
 
-rad=st.sidebar.radio("Menu",["Home","Education and Experience","Projects","Technologies and Tools","Certifications and Courses"])
+rad=st.sidebar.radio("Menu",["Home","Experience","Projects","Technologies and Tools","Certifications and Courses"])
 if rad == "Home":
     def get_base64_of_bin_file(bin_file):
         with open(bin_file, 'rb') as f:
@@ -355,7 +355,7 @@ if rad=="Projects":
     x4,y4,z4=st.beta_columns(3)
     y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
 
-if rad=="Education and Experience":
+if rad=="Experience":
     html_temp="""
     <p>
     <div style="background:#ffffff;padding:10px">
@@ -374,3 +374,13 @@ if rad=="Education and Experience":
         y1.subheader("ROLE : Data Science tech team")
         y1.write("[Check out the team](https://www.linkedin.com/company/ccscsrm/)")
     y1.image("Static/code.png")
+
+    x2,y2=st.beta_columns(2)
+    if x2.button("Technocolabs"):
+        x2.subheader("ROLE : Data Science and Machine learning intern")
+        x2.image("Static/630C21E0-9B5C-4C03-9C06-CBC4F261E6A6_1_105_c.jpeg")
+    x2.image("Static/techn.jpg")
+    if y2.button("TSF"):
+        y2.subheader("ROLE : Data Science and Business Analytics intern")
+        y2.image("Static/tsf.png")
+    y2.image("Static/tsflogo.png")
