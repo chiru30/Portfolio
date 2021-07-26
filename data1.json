@@ -1,0 +1,120 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Slide to<br>view my projects",
+            "text": "<p>My deployed projects , current working projects with detailed description is stated in this particular section <br> Follow the github link to view the project.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/analyst.jpg?raw=true",
+                "caption": "https://github.com/chiru30/Aqua.analyst"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Aqua.analyst",
+                "text": "<p>AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.Will let your value compare with the nearby locations. Detailed relationships and correlational patterns of the components. A peek into articles related to the topic. Various visualisations to compare water quality in different states. Insights and visuals on effect of agriculture and crop production due to chemical components</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://media-exp1.licdn.com/dms/image/C4E2DAQGwKUG5avfenw/profile-treasury-image-shrink_1280_1280/0/1627232341571?e=1627318800&v=beta&t=sBaRl5E2OQ3GV-g7cZbCMJ-wofBdsY4XJs2TpIZxQe4",
+                "caption": "Internship completion certificate"
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "1"
+
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "4"
+            },
+            "text": {
+                "headline": "Technocolabs",
+                "text": "ROLE : Data Science and Machine Learning Internhip"
+            }
+        },
+        {
+            "media": {
+                "url": "https://media-exp1.licdn.com/dms/image/C4E2DAQHszK8FI_W_JA/profile-treasury-image-shrink_800_800/0/1627242718615?e=1627329600&v=beta&t=S5ZPD6qhZHdfKbBRupZTXyNEIz8il9HJ8VHSV1SsuFI",
+                "caption": "Internship completion certificate"
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "2"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "5"
+            },
+            "text": {
+                "headline": "KPMG - Forage",
+                "text": "ROLE : Data Analytics virtual internship"
+            }
+        },
+        {
+            "media": {
+                "url": "https://media-exp1.licdn.com/dms/image/C4E22AQHwq-IwjYGQtA/feedshare-shrink_1280/0/1612514014313?e=1629936000&v=beta&t=4GOAWULo7wkdrGt1CzSl3y-akN1G4AmzPcOCn15jcE0",
+                "caption": "Recruitment to the club"
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "2"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "7"
+            },
+            "text": {
+                "headline": "CodeChef SRM Student Chapter",
+                "text": "ROLE : Data Science Technical Team"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/BC2DA83C-C474-4758-9864-52B32B9DF564.jpeg?raw=true",
+                "caption": "Recruitment to the club"
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "2"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "7"
+            },
+            "text": {
+                "headline": "Aakash Research Labs",
+                "text": "ROLE : Machine Learning Technical Team"
+            }
+        },
+        {
+
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "6"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "7"
+            },
+            "text": {
+                "headline": "Interestopedia",
+                "text": "ROLE : Business Development Internship"
+            }
+        }
+
+    ]
+}
