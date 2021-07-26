@@ -11,3 +11,4 @@ catboost
 xgboost
 lightgbm
 gunicorn
+streamlit_timeline
