@@ -1,5 +1,8 @@
 from altair.vegalite.v4.schema.core import Align
 import streamlit as st
+from streamlit_timeline import timeline
+
+
 # To make things easier later, we're also importing numpy and pandas for
 # working with sample data.
 import numpy as np
@@ -7,6 +10,7 @@ import pandas as pd
 
 import os
 import base64
+
 
 
 import streamlit.components.v1 as components
@@ -32,9 +36,11 @@ if rad == "Home":
         ''' % bin_str
         st.markdown(page_bg_img, unsafe_allow_html=True)
         return
-    set_png_as_page_bg('Static/homef.gif')
+    set_png_as_page_bg('Static/back.gif')
 
-    LOGO_IMAGE = "Static/0C3B8359-4504-45D3-91DD-0BE600C0B26F_4_5005_c.jpeg"
+
+    
+    LOGO_IMAGE = "Static/circle-cropped-4.png"
 
 
     st.markdown(
@@ -61,7 +67,7 @@ if rad == "Home":
     f"""
     <div class="container">
         <img class="logo-img" src="data:image/png;base64,{base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()}">
-        <p class="logo-text">  CHIRANTHANA R R</p>
+        <p class="logo-text"> CHIRANTHANA R R</p>
     </div>
     """,
     unsafe_allow_html=True)
@@ -81,9 +87,9 @@ if rad == "Home":
     st.write("\n")
 
     html_temp = """
-    <div style="background:#ffffff;padding:1px">
-    <h2 style="color:black;text-align:center;"> I am a computer science engineering student at SRMIST , passionate and enthusiastic about exploring the field data science and machine learning deeper. </h2>
-    </div>
+    
+    <h1 style="color:white;text-align:center;font-family: 'Brush Script MT', cursive;"> I am a computer science engineering student at SRMIST , passionate and enthusiastic about exploring the field data science and machine learning deeper. </h1>
+    
     """
     st.markdown(html_temp, unsafe_allow_html = True)
 
@@ -91,20 +97,42 @@ if rad == "Home":
 
 
     #x2,y2,z2=st.beta_columns(3)
-    #components.html("""<iframe src="https://giphy.com/embed/9JrkkDoJuU0FbdbUZU" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-drawing-welcome-9JrkkDoJuU0FbdbUZU">via GIPHY</a></p>""", width=480,height=480)
+    #components.html("""<iframe src="https://giphy.com/embed/9JrkkDoJuU0FbdbUZU" width="580" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-drawing-welcome-9JrkkDoJuU0FbdbUZU">via GIPHY</a></p>""", width=480,height=480)
     #y2.image('Static/giphy1.gif')
-
-    x1,y1,z1=st.beta_columns(3)
+    r1,r2,r3=st.beta_columns(3)
+    #r2.image('[epic.gif](https://github.com/chiru30/Portfolio/raw/main/resume_chiranthana.pdf)')
+    #r2.image("Static/download.gif")
     html_temp = """
     <p>
-    <div style="background:#ffffff;padding:1px">
-    <h3 style="color:black;text-align:center;"> CONNECT ME : </h3>
+    <h1 style = "font-family: 'Brush Script MT', cursive;">
+MY RESUME :
+</h1>
     </div>
     </p>
     """
-    y1.markdown(html_temp, unsafe_allow_html = True)
+    r2.markdown(html_temp, unsafe_allow_html = True)
+    html_temp="""
+
+
+<a href="https://github.com/chiru30/Portfolio/raw/main/resume_chiranthana.pdf" target="_blank">
+<img src=https://media.giphy.com/media/4YcsuPImLA9uP7W1YS/giphy.gif alt=resume  width="250" height="100" style="margin-bottom: 5px;" />
+
+"""
+
+    r2.markdown(html_temp, unsafe_allow_html=True)
+    #r2.image('[Static/click.gif](https://github.com/chiru30/Portfolio/raw/main/resume_chiranthana.pdf)')
+    x1,y1,z1=st.beta_columns(3)
+    html_temp = """
     
+    <h2 style = "font-family: 'Brush Script MT', cursive;">
+CONNECT :
+</h2>
+    </div>
+    </p>
+    """
+    x1.markdown(html_temp, unsafe_allow_html = True)
     
+    #<iframe src="https://giphy.com/embed/dtjfmbSUDWtYmDio12" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
     m,n,o=st.beta_columns(3)
     #m.header('[LINKEDIN](https://www.linkedin.com/in/chiranthana-r-r-232385200/)')
     #m.image('174857.png')
@@ -112,24 +140,22 @@ if rad == "Home":
     #n.image('25231.png')
     #o.header('[MEDIUM](https://chiranthana30rr.medium.com)')
     #o.image('unnamed.png')
-    html_temp="""
-
-<h3 align="center"> 
-<a href="https://github.com/chiru30" target="_blank">
+    html_temp="""<a href="https://github.com/chiru30" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</h3>
-<h3 align="center"> 
-<a href="https://www.linkedin.com/in/chiranthana-r-r-232385200" target="_blank">
+</a>
+ <a href="https://www.linkedin.com/in/chiranthana-r-r-232385200" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</h3>
-<h3 align="center"> 
+</a>
 <a href = "https://www.youtube.com/channel/UCDi8xgxgPsixJuheihvT04A">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-</h3>
-<h3 align="center"> 
+
 <a href="https://medium.com/@chiranthana30rr" target="_blank">
 <img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
-</h3>
+
+<a href="https://www.kaggle.com/chiranthanarr/account" target="_blank">
+<img src=https://img.shields.io/badge/kaggle-%23292929.svg?&style=for-the-badge&logo=kaggle&logoColor=blue alt=medium style="margin-bottom: 5px;" />
+</a>
+
 """
     st.markdown(html_temp, unsafe_allow_html=True)
     
@@ -306,29 +332,33 @@ if rad== 'Technologies and Tools':
     st.markdown(html_temp, unsafe_allow_html = True)
 
 if rad=="Projects":
-    html_temp="""
-    <p>
-    <div style="background:#ffffff;padding:10px">
-    <h2 style="color:black;text-align:center;">PROJECTS: </h2>
-    </div>
-    </p>
-    """
-    st.markdown(html_temp, unsafe_allow_html = True)
 
+    with open('data1.json', "r") as f:
+        
+        data = f.read()
+
+    # render timeline
+    timeline(data, height=600)
+    
+    r1,r2,r3=st.beta_columns(3)
+    p1,p2,p3=st.beta_columns(3)
     html_temp="""
     <p>
     <h2 style="color:white;text-align:left;">FEATURED: </h3>
     <h4 style="color:white;text-align:left;">Top 10 mention in Hactrix Hackathon</h>
     </p>
     """
-    st.markdown(html_temp, unsafe_allow_html = True)
+    r2.markdown(html_temp, unsafe_allow_html = True)
    
 
     x1,y1=st.beta_columns(2)
-    if x1.button("AQUA.ANALYST"):
-        x1.write("AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.\n Will let your value compare with the nearby locations\n Detailed relationships and correlational patterns of the components\n A peek into articles related to the topic\n Various visualisations to compare water quality in different states\n Insights and visuals on effect of agriculture and crop production due to chemical components")
-        x1.write('[Github](https://github.com/chiru30/Aqua.analyst)')
-    x1.image("Static/analyst.jpg")
+    
+    if r2.button("AQUA.ANALYST"):
+        #r2.write("AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.\n Will let your value compare with the nearby locations\n Detailed relationships and correlational patterns of the components\n A peek into articles related to the topic\n Various visualisations to compare water quality in different states\n Insights and visuals on effect of agriculture and crop production due to chemical components")
+        r2.write('[Github](https://github.com/chiru30/Aqua.analyst)')
+    p2.image("Static/analyst.jpg")
+    p1.image("Static/CC299E33-7189-4CE5-99B2-1FD6352812AC_1_105_c.jpeg")
+    p3.image("Static/3AACEA17-8521-4229-AED6-D95A0B4C141A_1_105_c.jpeg")
     
     st.header("LOOK INTO MORE PROJECTS")
 
@@ -356,31 +386,11 @@ if rad=="Projects":
     y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
 
 if rad=="Experience":
-    html_temp="""
-    <p>
-    <div style="background:#ffffff;padding:10px">
-    <h2 style="color:black;text-align:center;">EXPERIENCE : </h2>
-    </div>
-    </p>
-    """
-    st.markdown(html_temp, unsafe_allow_html = True)
+    
+    with open('example.json', "r") as f:
+        
+        data = f.read()
 
-    x1,y1=st.beta_columns(2)
-    if x1.button("Aakash Research Labs"):
-        x1.subheader("ROLE : Machine learning tech team")
-        x1.write("[Check out the team](https://aakashlabs.org/ac/146/)")
-    x1.image("Static/aa.jpg")
-    if y1.button("CodeChef SRM Student Chapter"):
-        y1.subheader("ROLE : Data Science tech team")
-        y1.write("[Check out the team](https://www.linkedin.com/company/ccscsrm/)")
-    y1.image("Static/code.png")
-
-    x2,y2=st.beta_columns(2)
-    if x2.button("Technocolabs"):
-        x2.subheader("ROLE : Data Science and Machine learning intern")
-        x2.image("Static/630C21E0-9B5C-4C03-9C06-CBC4F261E6A6_1_105_c.jpeg")
-    x2.image("Static/techn.jpg")
-    if y2.button("TSF"):
-        y2.subheader("ROLE : Data Science and Business Analytics intern")
-        y2.image("Static/tsf.png")
-    y2.image("Static/tsflogo.png")
+# render timeline
+    timeline(data, height=600)
+    
