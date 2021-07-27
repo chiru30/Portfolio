@@ -1,0 +1,124 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "credit": ""
+        },
+        "text": {
+            "headline": "COVIAST",
+            "text": "<b>YOUR COVID ASSISTANCE</b><br> SLIDE TO KNOW MORE ABOUT THE PROJECT.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/COVIAST/raw/main/Visuals/CTScan.PNG",
+                "caption": "https://github.com/chiru30/COVIAST"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "COVIAST",
+                "text": "<p>COVIAST is a platform to assist the public with their blood sample report in hand and predict the virus attack along with informative home remedial measures to combat the deadly virus. Given the large number of literature and the rapid spread of COVID-19, it is hard for us to keep up with new information on the virus , thus providing users a one stop solution through frequent updations.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://youtu.be/2MaOqm7BPH8",
+                "caption": "Demo Video"
+            },
+            "start_date": {
+                "year": "2021"
+
+            },
+            "text": {
+                "headline": "Check out the demo video",
+                "text": "Features :<br> 1.COVIAST - HOME PAGE<br> 2.ASSISTANCE<br> 3.DETECTION OF COVID-19 (BLOOD REPORT)"
+            }
+        },
+        {
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Technologies Used",
+                "text": "<b>1.Machine Learning - SVM<br> 2.Data Visualisation<br> 3.Data Analytics<br> 4.Streamlit<br> 5.Python<br> 6.Tableau"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/COVIAST/raw/main/Visuals/Screenshot%20(410).png",
+                "caption": "Screenshots"
+            },
+
+
+            "start_date": {
+                "year": "2021"
+            },
+
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/COVIAST/raw/main/Visuals/Visuals.PNG",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+
+            "media": {
+                "url": "https://github.com/chiru30/COVIAST/raw/main/Visuals/Bloodtest.PNG",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "GITHUB",
+                "text": "https://github.com/chiru30/COVIAST"
+            }
+        },
+        {
+            "media": {
+                "url": "https://www.rswebsols.com/wp-content/uploads/2019/03/Website-Design-Laptop-Marketing-Online-Internet-Work-Office.jpg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "WEBSITE",
+                "text": "https://share.streamlit.io/chiru30/coviast/main/main.py"
+            }
+        }
+
+    ]
+}
