@@ -1,0 +1,98 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Resourcenitic",
+            "text": "<p><b>Think Invest Centric, use Resourcenitic</b><br> SLIDE TO KNOW MORE ABOUT THE PROJECT.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/Resourcenitic/raw/main/pic2.png",
+                "caption": "https://github.com/chiru30/Resourcenitic"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Resourcenitic",
+                "text": "<p>Resourcenitic aims at providing service oriented industrialists and cooperate sector a platform to understand the global natural resources share and future feasibility of projects or power plants they tend to establish .The reasons to invest in natural resources have always been compelling. Whether it's hydro, thermal, or nuclear, natural resources are at the core of production. The pool of investable natural resources is growing as the world population requires more and more of these resources. Also , natural resources boosts the Indian Economy</p>"
+            }
+        },
+
+        {
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Technologies Used",
+                "text": "<b>Machine Learning<br> Data Mining<br> Data analytics and visualisations<br> Data Science<br> Business Analytics<br> Tableau<br> Flask<br> mySQL database<br> Heroku"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Resourcenitic/blob/main/static/6DBD12CE-C096-4355-B1CE-825AB1B9E87A.jpeg?raw=true",
+                "caption": "Screenshots"
+            },
+
+
+            "start_date": {
+                "year": "2021"
+            },
+
+            "text": {
+                "headline": "Features",
+                "text": "<b>HOME<br> ESTIMATOR<br> FORECASTER<br> GDP RATES<br> NATIONAL SHARE RATES<br> IMPORT/EXPORT RATES"
+            }
+        },
+        {
+            "media": {
+                "url": "https://youtu.be/az5Gq-zntLA",
+                "caption": "Demo video"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "OBJECTIVE",
+                "text": "Natural resource investing has long been staple in strategic asset allocation. Natural resources act as store of value, especially during times of rising inflation or currency depreciation. Natural resource investing appeals due to the impact of rising incomes, global infrastructure repair, political buying, and the store of value, especially metals."
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "GITHUB",
+                "text": "https://github.com/chiru30/Resourcenitic"
+            }
+        },
+        {
+            "media": {
+                "url": "https://www.rswebsols.com/wp-content/uploads/2019/03/Website-Design-Laptop-Marketing-Online-Internet-Work-Office.jpg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "WEBSITE",
+                "text": "https://resourcenitic.herokuapp.com/"
+            }
+        }
+
+
+    ]
+}
