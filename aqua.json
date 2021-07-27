@@ -1,0 +1,124 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Aqua.analyst",
+            "text": "<b>Water Smarter , What a Starter</b><br> SLIDE TO KNOW MORE ABOUT THE PROJECT.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/analyst.jpg?raw=true",
+                "caption": "https://github.com/chiru30/Aqua.analyst"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Aqua.analyst",
+                "text": "<p>AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.Will let your value compare with the nearby locations. Detailed relationships and correlational patterns of the components. A peek into articles related to the topic. Various visualisations to compare water quality in different states. Insights and visuals on effect of agriculture and crop production due to chemical components</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://youtu.be/OCi2YLNVaEI",
+                "caption": "Demo Video"
+            },
+            "start_date": {
+                "year": "2021"
+
+            },
+            "text": {
+                "headline": "Check out the demo video",
+                "text": "Features :<br> 1.HOME<br> 2.ANALYST<br> 3.DASHBOARDS<br> 4.FEED"
+            }
+        },
+        {
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Technologies Used",
+                "text": "<b>1.Data Science<br> 2.Data Visualisation<br> 3.Data Analytics<br> 4.Statistical Algorithm<br> 5.Streamlit<br> 6.Python"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Aqua.analyst/raw/main/visuals.jpeg",
+                "caption": "Screenshots"
+            },
+
+
+            "start_date": {
+                "year": "2021"
+            },
+
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Aqua.analyst/raw/main/feed.jpeg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+
+            "media": {
+                "url": "https://github.com/chiru30/Aqua.analyst/raw/main/statedash.jpeg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "GITHUB",
+                "text": "https://github.com/chiru30/Aqua.analyst"
+            }
+        },
+        {
+            "media": {
+                "url": "https://www.rswebsols.com/wp-content/uploads/2019/03/Website-Design-Laptop-Marketing-Online-Internet-Work-Office.jpg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "WEBSITE",
+                "text": "https://share.streamlit.io/chiru30/aqua.analyst/main/main.py"
+            }
+        }
+
+    ]
+}
