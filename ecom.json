@@ -1,0 +1,112 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "credit": ""
+        },
+        "text": {
+            "headline": "ECOM-HELP",
+            "text": "<br> SLIDE TO KNOW MORE ABOUT THE PROJECT.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/ECOM-HELP/blob/main/Static/274DB3F6-48EF-46FA-8BF3-E8D22A060FF6.jpeg?raw=true",
+                "caption": "https://github.com/chiru30/ECOM-HELP"
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "ECOM-HELP",
+                "text": "<p>One of the fast growing trends of today’s world is E-commerce. Along with its uses and advancements , there comes a problem of package delivery and appropriate delivery times. Most E-commerce websites today still doesnt enable the option of delivery date tracking and confirmation on the date. Due to COVID as the E-commerce websites took a rapid increase in their user stats, this project is a small help for all the people out there to have a confirmation on their delivery date to avoid any issues or problems while receiving the package.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://user-images.githubusercontent.com/73631715/122617250-86875a80-d0a9-11eb-936c-e359aef5600e.mp4",
+                "caption": "Demo Video"
+            },
+            "start_date": {
+                "year": "2021"
+
+            },
+            "text": {
+                "headline": "Check out the demo video",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Technologies Used",
+                "text": "<b>1.Machine Learning <br> 2.Data Analytics<br> 4.Streamlit<br> 5.Python<br> 6.AdaBoost Classifier"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/ECOM-HELP/blob/main/Static/2F62A4BD-AC13-4A5E-9060-050E8B95B228.jpeg?raw=true",
+                "caption": "Screenshots"
+            },
+
+
+            "start_date": {
+                "year": "2021"
+            },
+
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+
+        {
+
+            "media": {
+                "url": "https://github.com/chiru30/ECOM-HELP/blob/main/Static/415E7A9E-F742-415C-93BB-6131F048413E.jpeg?raw=true",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Broad Scope",
+                "text": "Based on the data study , I noticed a relationship between discount offered and delivery reach . More the discount offered , more were the chances of delay. This can be looked into from the company's end to adopt better strategies and techniques to overcome this issue."
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "GITHUB",
+                "text": "https://github.com/chiru30/ECOM-HELP"
+            }
+        },
+        {
+            "media": {
+                "url": "https://www.rswebsols.com/wp-content/uploads/2019/03/Website-Design-Laptop-Marketing-Online-Internet-Work-Office.jpg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "WEBSITE",
+                "text": "https://ecom-help.herokuapp.com/"
+            }
+        }
+
+    ]
+}
