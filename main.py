@@ -270,7 +270,6 @@ if rad == "Certifications and Courses" :
     
     
 if rad== 'Technologies and Tools':
-    
     def get_base64_of_bin_file(bin_file):
         with open(bin_file, 'rb') as f:
             data = f.read()
@@ -287,101 +286,105 @@ if rad== 'Technologies and Tools':
         ''' % bin_str
         st.markdown(page_bg_img, unsafe_allow_html=True)
         return
-    set_png_as_page_bg('Static/analysis_364470.jpg')
-    
-    html_temp="""
-    <p>
-    <div style="background:#ffffff;padding:10px">
-    <h2 style="color:black;text-align:center;"> SKILLS : </h2>
-    </div>
-    </p>
-    <h1 style="text-align:center;color:black;">1. Data Science</h1>
-    <h1 style="text-align:center;color:black;">2. Data Analysis</h1>
-    <h1 style="text-align:center;color:black;">3. Machine Learning</h1>
-    <h1 style="text-align:center;color:black;">4. Deep Learning</h1>
-    <h1 style="text-align:center;color:black;">5. Web Development</h1>
-    <h1 style="text-align:center;color:black;">6. Business Analytics</h1>
-    """
-    
-    st.markdown(html_temp, unsafe_allow_html = True)
-
+    set_png_as_page_bg('Static/grey.jpg')
     html_temp="""
     <p>
     <div style="background:#ffffff;padding:10px">
     <h2 style="color:black;text-align:center;"> Languages and Tools: </h2>
     </div>
-    </p>
-    <p>
-    <div style="background:#f0d1d1;padding:10px">
-    <p align="left"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-    <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
-    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-    <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-    <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-    <a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> 
-    <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-    <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
-    <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> 
-    <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40
-    </a> <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
-    </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> </p>
-    </div>
-    </p>
+    <p align="centre"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="120" height="120"/>
+    </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="120" height="120"/> 
+    </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="120" height="120"/> 
+    </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="120" height="120"/> 
+   </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="120" height="120"/>
+    </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="120" height="120"/> 
+    </a> <a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="120" height="120"/>
+    </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="120" height="120"/> 
+    </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="120" height="120"/>
+    </a> <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="120" height="120"/> 
+    </a> <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="120" height="120</a>
+ </a> <a href="https://pandas.pydata.org" target="_blank"> <img src = 'https://pandas.pydata.org/static/img/pandas_white.svg' alt="pandas" width="120" height="120 /> 
+ </a> <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="120" height="120"/> 
+ </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="120" height="120"/> </a>
+ </a> <a href="https://pytorch.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg" alt="pytorch" width="200" height="200"/> </a>
+ </a> <a href="https://numpy.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg" alt="numpy" width="200" height="200"/> </a>
+
+ </p>
+
     """
     st.markdown(html_temp, unsafe_allow_html = True)
 
-if rad=="Projects":
+    html_temp="""
+    <p>
+    <div style="background:#ffffff;padding:10px">
+    <h2 style="color:black;text-align:center;">I work on: </h2>
+    </div>
+    </p>
+    <h1 style="text-align:center;color:black;">+ Data Science</h1>
+    <h1 style="text-align:center;color:black;">+ Data Analysis</h1>
+    <h1 style="text-align:center;color:black;">+ Machine Learning</h1>
+    <h1 style="text-align:center;color:black;">+ Deep Learning</h1>
+    <h1 style="text-align:center;color:black;">+ Web Development</h1>
+    <h1 style="text-align:center;color:black;">+ Business Analytics</h1>
+    """
+    
+    st.markdown(html_temp, unsafe_allow_html = True)
 
-    with open('data1.json', "r") as f:
+if rad=="Projects":
+    r1,r2,r3=st.beta_columns(3)
+    
+
+    with open('aqua.json', "r") as f:
         
         data = f.read()
 
     # render timeline
-    timeline(data, height=600)
+    timeline(data, height=550)
     
-    r1,r2,r3=st.beta_columns(3)
-    p1,p2,p3=st.beta_columns(3)
-    html_temp="""
-    <p>
-    <h2 style="color:white;text-align:left;">FEATURED: </h3>
-    <h4 style="color:white;text-align:left;">Top 10 mention in Hactrix Hackathon</h>
-    </p>
-    """
-    r2.markdown(html_temp, unsafe_allow_html = True)
-   
+    with open('reso.json', "r") as f:
+        
+        data1 = f.read()
 
-    x1,y1=st.beta_columns(2)
+    # render timeline
+    timeline(data1, height=550)
+
+    with open('covi.json', "r") as f:
+        
+        data2 = f.read()
+
+    # render timeline
+    timeline(data2, height=550)
+
+    with open('crypto.json', "r") as f:
+        
+        data3 = f.read()
+
+    # render timeline
+    timeline(data3, height=550)
+
+    with open('ecom.json', "r") as f:
+        
+        data4 = f.read()
+
+    # render timeline
+    timeline(data4, height=550)
+
+    with open('mov.json', "r") as f:
+        
+        data5 = f.read()
+
+    # render timeline
+    timeline(data5, height=550)
+
+
+    with open('spot.json', "r") as f:
+        
+        data6 = f.read()
+
+    # render timeline
+    timeline(data6, height=550)
+
     
-    if r2.button("AQUA.ANALYST"):
-        #r2.write("AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.\n Will let your value compare with the nearby locations\n Detailed relationships and correlational patterns of the components\n A peek into articles related to the topic\n Various visualisations to compare water quality in different states\n Insights and visuals on effect of agriculture and crop production due to chemical components")
-        r2.write('[Github](https://github.com/chiru30/Aqua.analyst)')
-    p2.image("Static/analyst.jpg")
-    p1.image("Static/CC299E33-7189-4CE5-99B2-1FD6352812AC_1_105_c.jpeg")
-    p3.image("Static/3AACEA17-8521-4229-AED6-D95A0B4C141A_1_105_c.jpeg")
-    
-    st.header("LOOK INTO MORE PROJECTS")
-
-    x2,y2=st.beta_columns(2)
-    if x2.button("RESOURCENITIC"):
-        x2.write("Resourcenitic aims at providing service oriented industrialists and cooperate sector a platform to understand the global natural resources share and future feasibility of projects or power plants they tend to establish .The reasons to invest in natural resources have always been compelling. Whether it's hydro, thermal, or nuclear, natural resources are at the core of production. The pool of investable natural resources is growing as the world population requires more and more of these resources. Also , natural resources boosts the Indian Economy")
-        x2.write('[Github](https://github.com/chiru30/Resourcenitic)')
-    x2.image("Static/res.png")
-    if y2.button("COVIAST"):
-        y2.write(" COVIAST is a platform to assist the public with their blood sample report in hand and predict the virus attack along with informative home remedial measures to combat the deadly virus. Given the large number of literature and the rapid spread of COVID-19, it is hard for us to keep up with new information on the virus , thus providing users a one stop solution through frequent updations.")
-        y2.write('[Github](https://github.com/chiru30/COVIAST)')
-    y2.image("Static/cov.png")
-
-    x3,y3=st.beta_columns(2)
-    if x3.button("SPOTIFY SKIP PREDICTION"):
-        x3.write("ML model which predicts if the user skips a song or not using Spotify dataset.")
-        x3.write('[Github](https://github.com/chiru30/spotify-skip-prediction)')
-    x3.image("Static/C78830A6-4594-48C6-B634-30E368E97D2D_1_105_c.jpeg")
-    if y3.button("MOVIE RATING PREDICTION"):
-        y3.write("ML model which predicts the rating of a movie based on features like genre , actors , overview etc.")
-        y3.write('[Github](https://github.com/chiru30/Movie-Rating-Prediction)')
-    y3.image("Static/5DF3A65E-C12D-40B3-A244-6D64837935B4.jpeg")
-
     x4,y4,z4=st.beta_columns(3)
     y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
 
@@ -394,3 +397,5 @@ if rad=="Experience":
 # render timeline
     timeline(data, height=600)
     
+
+
