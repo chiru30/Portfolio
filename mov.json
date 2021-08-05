@@ -1,0 +1,99 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": "",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Movie Rating Prediction",
+            "text": "<b>Predicting Movie Ratings with Multimodal Data.</b><br> SLIDE TO KNOW MORE ABOUT THE PROJECT.</p>"
+        }
+    },
+    "events": [{
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/5DF3A65E-C12D-40B3-A244-6D64837935B4.jpeg?raw=true",
+                "caption": "https://github.com/chiru30/Movie-Rating-Prediction"
+            },
+            "start_date": {
+                "year": "2021"
+
+            },
+            "text": {
+                "headline": "Movie Rating Prediction",
+                "text": "<p>ML model which predicts the rating of a movie based on features like genre , actors , overview etc.</p>"
+            }
+        },
+
+        {
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Technologies Used",
+                "text": "<b>1.Machine Learning<br> 2.Data Visualisation<br> 3.Data Analytics<br> 4.Flask<br> 5.Python"
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/Unknown-2.png?raw=true",
+                "caption": "Visualisation"
+            },
+
+
+            "start_date": {
+                "year": "2021"
+            },
+
+            "text": {
+                "headline": "Visualisation",
+                "text": ""
+            }
+        },
+        {
+            "media": {
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/5DF3A65E-C12D-40B3-A244-6D64837935B4.jpeg?raw=true",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "Website Screenshots",
+                "text": ""
+            }
+        },
+
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "GITHUB",
+                "text": "https://github.com/chiru30/Movie-Rating-Prediction"
+            }
+        },
+        {
+            "media": {
+                "url": "https://www.rswebsols.com/wp-content/uploads/2019/03/Website-Design-Laptop-Marketing-Online-Internet-Work-Office.jpg",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021"
+            },
+            "text": {
+                "headline": "WEBSITE",
+                "text": "https://group-a-movierating.herokuapp.com/"
+            }
+        }
+
+    ]
+}
