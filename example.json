@@ -67,7 +67,7 @@
         },
         {
             "media": {
-                "url": "https://media-exp1.licdn.com/dms/image/C4E22AQHwq-IwjYGQtA/feedshare-shrink_1280/0/1612514014313?e=1629936000&v=beta&t=4GOAWULo7wkdrGt1CzSl3y-akN1G4AmzPcOCn15jcE0",
+                "url": "https://github.com/chiru30/Portfolio/blob/main/Static/codechef.jpg?raw=true",
                 "caption": "Recruitment to the club"
             },
             "start_date": {
@@ -118,6 +118,25 @@
             "text": {
                 "headline": "Interestopedia",
                 "text": "ROLE : Business Development Internship"
+            }
+        },
+        {
+
+            "media": {
+                "url": "",
+                "caption": ""
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "7"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "8"
+            },
+            "text": {
+                "headline": "EzRex",
+                "text": "ROLE : Data Analyst internship"
             }
         }
 
