@@ -2,16 +2,11 @@ from altair.vegalite.v4.schema.core import Align
 import streamlit as st
 from streamlit_timeline import timeline
 
-
-# To make things easier later, we're also importing numpy and pandas for
-# working with sample data.
 import numpy as np
 import pandas as pd
 
 import os
 import base64
-
-
 
 import streamlit.components.v1 as components
 
@@ -99,7 +94,7 @@ if rad == "Home":
     #x2,y2,z2=st.beta_columns(3)
     #components.html("""<iframe src="https://giphy.com/embed/9JrkkDoJuU0FbdbUZU" width="580" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-drawing-welcome-9JrkkDoJuU0FbdbUZU">via GIPHY</a></p>""", width=480,height=480)
     #y2.image('Static/giphy1.gif')
-    r1,r2,r3=st.beta_columns(3)
+    r1,r2,r3=st.columns(3)
     #r2.image('[epic.gif](https://github.com/chiru30/Portfolio/raw/main/resume_chiranthana.pdf)')
     #r2.image("Static/download.gif")
     html_temp = """
@@ -121,7 +116,7 @@ MY RESUME :
 
     r2.markdown(html_temp, unsafe_allow_html=True)
     #r2.image('[Static/click.gif](https://github.com/chiru30/Portfolio/raw/main/resume_chiranthana.pdf)')
-    x1,y1,z1=st.beta_columns(3)
+    x1,y1,z1=st.columns(3)
     html_temp = """
     
     <h2 style = "font-family: 'Brush Script MT', cursive;">
@@ -133,7 +128,7 @@ CONNECT :
     x1.markdown(html_temp, unsafe_allow_html = True)
     
     #<iframe src="https://giphy.com/embed/dtjfmbSUDWtYmDio12" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
-    m,n,o=st.beta_columns(3)
+    m,n,o=st.columns(3)
     #m.header('[LINKEDIN](https://www.linkedin.com/in/chiranthana-r-r-232385200/)')
     #m.image('174857.png')
     #n.header('[GITHUB](https://github.com/chiru30/)')
@@ -204,7 +199,7 @@ if rad == "Certifications and Courses" :
     set_png_as_page_bg('Static/achh.gif')
 
     st.header("CERTIFICATIONS")
-    x2,y2,z2=st.beta_columns(3)
+    x2,y2,z2=st.columns(3)
     x2.subheader('Data Analytics intern at KPMG')
     x2.image('Static/kpmg.png')
 
@@ -214,7 +209,7 @@ if rad == "Certifications and Courses" :
     z2.subheader('Data Science and Machine Learning intern at Technocolabs')
     z2.image('Static/630C21E0-9B5C-4C03-9C06-CBC4F261E6A6_1_105_c.jpeg')
 
-    x2,y2=st.beta_columns(2)
+    x2,y2=st.columns(2)
     x2.subheader('[Recruited at Aakash Research Labs](https://www.instagram.com/p/CLtsedijimo/?utm_medium=copy_link)')
     x2.image('Static/BC2DA83C-C474-4758-9864-52B32B9DF564.jpeg')
 
@@ -222,7 +217,7 @@ if rad == "Certifications and Courses" :
     y2.image('Static/codechef.jpg')
 
     if st.button("HACKATHONS"):
-        x2,y2,z2=st.beta_columns(3)
+        x2,y2,z2=st.columns(3)
         x2.subheader('[Hacktrix-TOP 10](https://devfolio.co/submissions/aquaanalyst-327b)')
         x2.image('Static/hacktrix.png')
 
@@ -234,7 +229,7 @@ if rad == "Certifications and Courses" :
 
 
     if st.button("COURSES"):
-        x2,y2,z2=st.beta_columns(3)
+        x2,y2,z2=st.columns(3)
         x2.subheader('[Data Science Professional Certificate](https://coursera.org/share/d94fecaa44cfd428602697b950af7b3a)')
         x2.image('Static/F7729A18-BC52-4EAA-88C5-4DB18468CC23.jpeg')
 
@@ -244,7 +239,7 @@ if rad == "Certifications and Courses" :
         z2.subheader('[Introduction to Web Development](https://coursera.org/share/a0a8bf8c302439c3e1d655743617fd6d)')
         z2.image('Static/B8000BCC-D69C-40BF-AFF5-359631803A1A_1_105_c.jpeg')
 
-        x2,y2,z2=st.beta_columns(3)
+        x2,y2,z2=st.columns(3)
         x2.subheader('[Machine Learning with Python](https://coursera.org/share/0e02b5a2cd78f594a6d373cda4ccb5e9)')
         x2.image('Static/1270125A-0969-477E-8E65-2FDF58D1AA10_1_105_c.jpeg')
     
@@ -254,7 +249,7 @@ if rad == "Certifications and Courses" :
         z2.subheader('[Data Visulaization with python](https://coursera.org/share/a1bc327ad2b0dfd124368914c2aa48c5)')
         z2.image('Static/89E39C1B-A3A7-4B88-9862-02A09FFBFA16_1_105_c.jpeg')
 
-        x2,y2,z2=st.beta_columns(3)
+        x2,y2,z2=st.columns(3)
         x2.subheader('[Databases and SQL](https://coursera.org/share/ce71284a2277da1556bcb6f52296cd6c)')
         x2.image('Static/9F58C5A9-E0E7-47ED-89F8-3A86F68699BC_1_105_c.jpeg')
 
@@ -264,7 +259,7 @@ if rad == "Certifications and Courses" :
         z2.subheader('[Python Data Structures](https://coursera.org/share/606c0d43726500dd67f80061b92e55f0)')
         z2.image('Static/1D2A4266-CCC2-4323-9E20-5C8E0D23F581_1_105_c.jpeg')
 
-        x2,y2,z2=st.beta_columns(3)
+        x2,y2,z2=st.columns(3)
         x2.subheader('[Getting Started with Python](https://coursera.org/share/787266dc51221f671e2261a91da592f4)')
         x2.image('Static/E05F607B-B8D9-47CC-9596-20EDE15F81B2_1_105_c.jpeg')
     
@@ -331,7 +326,7 @@ if rad== 'Technologies and Tools':
     st.markdown(html_temp, unsafe_allow_html = True)
 
 if rad=="Projects":
-    r1,r2,r3=st.beta_columns(3)
+    r1,r2,r3=st.columns(3)
     
 
     with open('aqua.json', "r") as f:
@@ -385,7 +380,7 @@ if rad=="Projects":
     timeline(data6, height=550)
 
     
-    x4,y4,z4=st.beta_columns(3)
+    x4,y4,z4=st.columns(3)
     y4.subheader('[CHECK MY GITHUB FOR MORE INTERESTING PROJECTS](https://github.com/chiru30)')
 
 if rad=="Experience":
@@ -397,5 +392,4 @@ if rad=="Experience":
 # render timeline
     timeline(data, height=600)
     
-
 
