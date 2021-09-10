@@ -83,7 +83,7 @@ if rad == "Home":
 
     html_temp = """
     
-    <h1 style="color:white;text-align:center;font-family: 'Brush Script MT', cursive;"> I am a computer science engineering student at SRMIST , passionate and enthusiastic about exploring the field data science and machine learning deeper. </h1>
+    <h1 style="color:white;text-align:center;font-family: 'Roboto Condensed'"> I am a computer science engineering student at SRMIST , passionate and enthusiastic about exploring the field data science and machine learning deeper. </h1>
     
     """
     st.markdown(html_temp, unsafe_allow_html = True)
@@ -99,7 +99,7 @@ if rad == "Home":
     #r2.image("Static/download.gif")
     html_temp = """
     <p>
-    <h1 style = "font-family: 'Brush Script MT', cursive;">
+    <h1 style = "font-family: 'Roboto Condensed',cursive;">
 MY RESUME :
 </h1>
     </div>
@@ -119,7 +119,7 @@ MY RESUME :
     x1,y1,z1=st.columns(3)
     html_temp = """
     
-    <h2 style = "font-family: 'Brush Script MT', cursive;">
+    <h2 style = "font-family: 'Roboto Condensed'=">
 CONNECT :
 </h2>
     </div>
@@ -391,5 +391,3 @@ if rad=="Experience":
 
 # render timeline
     timeline(data, height=600)
-    
-
