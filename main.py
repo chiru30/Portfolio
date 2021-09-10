@@ -99,7 +99,7 @@ if rad == "Home":
     #r2.image("Static/download.gif")
     html_temp = """
     <p>
-    <h1 style = "font-family: 'Roboto Condensed',cursive;">
+    <h1 style = "font-family: 'Roboto Condensed'">
 MY RESUME :
 </h1>
     </div>
