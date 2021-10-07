@@ -83,7 +83,7 @@ if rad == "Home":
 
     html_temp = """
     
-    <h1 style="color:white;text-align:center;font-family: 'Roboto Condensed'"> I am a computer science engineering student at SRMIST , passionate and enthusiastic about exploring the field data science and machine learning deeper. </h1>
+    <h1 style="color:white;text-align:center;font-family: 'Roboto Condensed'"> I am a computer science engineering student at SRMIST, passionate and enthusiastic about exploring the field data science and machine learning deeper. </h1>
     
     """
     st.markdown(html_temp, unsafe_allow_html = True)
