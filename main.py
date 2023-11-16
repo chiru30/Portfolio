@@ -1,4 +1,4 @@
-from altair.vegalite.v4.schema.core import Align
+# from altair.vegalite.v4.schema.core import Align
 import streamlit as st
 from streamlit_timeline import timeline
 
