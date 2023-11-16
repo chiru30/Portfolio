@@ -109,7 +109,7 @@ MY RESUME :
     html_temp="""
 
 
-<a href="https://github.com/chiru30/Portfolio/raw/main/CHIRANTHANA-CV.pdf" target="_blank">
+<a href="https://github.com/chiru30/Portfolio/blob/main/CV_Chiranthana_40277883.pdf" target="_blank">
 <img src=https://media.giphy.com/media/4YcsuPImLA9uP7W1YS/giphy.gif alt=resume  width="250" height="100" style="margin-bottom: 5px;" />
 
 """
