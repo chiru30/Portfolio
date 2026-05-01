@@ -1,0 +1,167 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111827;
+  --muted: #4b5563;
+  --border: #e5e7eb;
+  --card: #fafafa;
+  --link: #1d4ed8;
+  --link-visited: #6d28d9;
+  --button-bg: #111827;
+  --button-fg: #ffffff;
+  --shadow: 0 1px 0 rgba(17, 24, 39, 0.06);
+
+  --maxw: 840px;
+  --radius: 10px;
+}
+
+html[data-theme="dark"] {
+  --bg: #0b1020;
+  --fg: #e5e7eb;
+  --muted: #a1a1aa;
+  --border: rgba(229, 231, 235, 0.14);
+  --card: rgba(255, 255, 255, 0.04);
+  --link: #93c5fd;
+  --link-visited: #c4b5fd;
+  --button-bg: #e5e7eb;
+  --button-fg: #111827;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+a:visited {
+  color: var(--link-visited);
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.container {
+  width: min(var(--maxw), calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+.skip-link:focus {
+  left: 1rem;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 92%, var(--card));
+}
+
+.header-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+
+.brand-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--fg);
+}
+.brand-link:visited {
+  color: var(--fg);
+}
+
+.nav {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 0.25rem 0.35rem;
+  border-radius: 0.4rem;
+}
+.nav-link.is-active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--button-bg);
+  color: var(--button-fg);
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.55rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+.button:focus {
+  outline: 2px solid color-mix(in srgb, var(--link) 65%, transparent);
+  outline-offset: 2px;
+}
+
+.hero {
+  padding: 2.25rem 0 1.25rem;
+}
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  letter-spacing: -0.02em;
+}
+.lead {
+  margin: 0;
+  color: var(--muted);
+  max-width: 65ch;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+  margin: 1rem 0 2rem;
+  box-shadow: var(--shadow);
+}
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+.card p {
+  margin: 0;
+  color: var(--fg);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 0;
+}
+.muted {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
