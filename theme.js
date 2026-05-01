@@ -34,11 +34,15 @@ function currentTheme() {
 
 function updateToggleLabel(btn) {
   const theme = currentTheme();
-  btn.textContent = theme === "dark" ? "Light theme" : "Dark theme";
+  // Show the *target* theme as an icon:
+  // - currently dark → show sun (switch to light)
+  // - currently light → show moon (switch to dark)
+  btn.textContent = theme === "dark" ? "☀" : "☾";
   btn.setAttribute(
     "aria-label",
     theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
   );
+  btn.setAttribute("title", btn.getAttribute("aria-label"));
 }
 
 function initThemeToggle() {
