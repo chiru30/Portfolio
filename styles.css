@@ -156,6 +156,14 @@ a:hover {
   color: var(--fg);
 }
 
+.list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.list li {
+  margin: 0.25rem 0;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1.25rem 0;

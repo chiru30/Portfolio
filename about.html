@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <title>Chiranthana Rampura</title>
-    <meta name="description" content="Portfolio website of Chiranthana Rampura." />
+    <title>About · Chiranthana Rampura</title>
+    <meta name="description" content="About Chiranthana Rampura." />
     <link rel="stylesheet" href="./styles.css" />
     <script>
-      // Apply theme early to avoid flash.
       (function () {
         try {
           var saved = localStorage.getItem("theme");
@@ -29,8 +28,8 @@
         </div>
 
         <nav class="nav" aria-label="Primary">
-          <a class="nav-link is-active" href="./">Home</a>
-          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./">Home</a>
+          <a class="nav-link is-active" href="./about.html">About</a>
           <a class="nav-link" href="./research.html">Research</a>
           <a class="nav-link" href="./publications.html">Publications</a>
           <a class="nav-link" href="./projects.html">Projects</a>
@@ -38,37 +37,40 @@
         </nav>
 
         <div class="actions">
-          <button id="themeToggle" class="button" type="button">
-            Toggle theme
-          </button>
+          <button id="themeToggle" class="button" type="button">Toggle theme</button>
         </div>
       </div>
     </header>
 
     <main id="main" class="container">
       <section class="hero">
-        <h1>Chiranthana Rampura</h1>
+        <h1>About</h1>
         <p class="lead">
-          Research-focused portfolio. Simple, readable, and built to publish work.
+          A short academic bio, research interests, and current affiliation.
         </p>
       </section>
 
       <section class="card">
-        <h2>Quick links</h2>
+        <h2>Bio</h2>
         <p>
-          Start with <a href="./about.html">About</a>, then add your work under
-          <a href="./research.html">Research</a>, <a href="./publications.html">Publications</a>,
-          and <a href="./projects.html">Projects</a>. For collaborations, see
-          <a href="./contact.html">Contact</a>.
+          Replace this with 3–5 sentences: your program/role, institution, broad
+          research area, and what you’re currently working on.
         </p>
+      </section>
+
+      <section class="card">
+        <h2>Research interests</h2>
+        <ul class="list">
+          <li>Interest area 1</li>
+          <li>Interest area 2</li>
+          <li>Interest area 3</li>
+        </ul>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container">
-        <p class="muted">
-          © <span id="year"></span> Chiranthana Rampura
-        </p>
+        <p class="muted">© <span id="year"></span> Chiranthana Rampura</p>
       </div>
     </footer>
 
